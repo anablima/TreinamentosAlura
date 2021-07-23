@@ -1,8 +1,10 @@
 Classe
 class -> Onde será criado os passos que nosso código executará.
+Serve como forma para vários objetos.
+Dentro das classes existem o que chamamos de atributos.
 
 Objeto
-Quando importamos a classe e chamamos ela, se torna um objeto.
+Quando importamos a classe e chamamos ela, é criado um objeto em memória.
 
 Referência
 Quando atribuímos a chamada da classe a uma variável ela se torna uma referência.
