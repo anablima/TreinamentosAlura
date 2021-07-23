@@ -1,3 +1,5 @@
+from Conta import Conta
+
 class Conta:
 
     def __init__(self, numero, titular, saldo, limite):
@@ -6,3 +8,8 @@ class Conta:
         self.titular = titular
         self.saldo = saldo
         self.limite = limite
+        
+    def extrato(self):
+        print("Saldo do {} titular {}".format(self.saldo, self.titular))
+        
+        
