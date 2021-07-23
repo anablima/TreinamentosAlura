@@ -1,0 +1,10 @@
+Classe
+class -> Onde será criado os passos que nosso código executará.
+
+Objeto
+Quando importamos a classe e chamamos ela, se torna um objeto.
+
+Referência
+Quando atribuímos a chamada da classe a uma variável ela se torna uma referência.
+
+* Construtores sempre iniciam e terminam com __
