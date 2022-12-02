@@ -2,7 +2,6 @@ class Conta:
 
     def __init__(self, numero, titular, saldo, limite):
         print("Construindo objeto ... {}".format(self))
-    # Para deixar os atributos privados devemos colocar __ antes
         self.__numero = numero
         self.__titular = titular
         self.__saldo = saldo
@@ -21,14 +20,18 @@ class Conta:
         self.saca(valor)
         destino.deposita(valor)
 
-    def get_saldo(self):
+    @property
+    def saldo(self):
         return self.__saldo
 
-    def get_titular(self):
+    @property
+    def titular(self):
         return self.__titular
 
-    def get_limite(self):
+    @property
+    def limite(self):
         return self.__limite
-    
-    def set_limite(self, limite):
+
+    @limite.setter
+    def limite(self, limite):
         self.__limite = limite
