@@ -1,2 +1,2 @@
 # TreinamentosAlura
-Repositório com os Jupyters e arquivos .py dos treinamento que realizei na Alura.
+Repositório com os materiais dos treinamentos que realizei na Alura.
